@@ -7,7 +7,7 @@ export const Navbar = () => {
         <nav>
             <div className="container">
                 <div><img src={logo} alt=""/></div>
-                <div><Hamburger /></div>
+                <div><Hamburger color="#ffaaed"/></div>
                 
             </div>
         </nav>
