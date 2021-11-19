@@ -1,0 +1,12 @@
+section{
+    width: 100%;
+    background-color: #ffaaed;
+}
+section h2{
+    text-align: center;
+    font-size: 40px;
+}
+.gallery{
+    width: 100%;
+    display: flex;
+}
