@@ -1,6 +1,6 @@
 section{
     width: 100%;
-    background-color: rgb(var(--baseColor));
+    background-color: var(--bgColor);
 }
 section h2{
     text-align: center;
@@ -9,4 +9,6 @@ section h2{
 .gallery{
     width: 100%;
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
