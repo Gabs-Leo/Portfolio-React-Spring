@@ -1,14 +1,16 @@
 section{
     width: 100%;
-    background-color: var(--bgColor);
+    padding-bottom: 30px;
 }
 section h2{
     text-align: center;
     font-size: 40px;
+    color: var(--bgColor)
 }
-.gallery{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+
+.color{
+    background-image: linear-gradient(to bottom, rgb(var(--baseColor)), rgb(var(--darkColor)));
+}
+.white{
+    background-color: var(--whiteBg);
 }

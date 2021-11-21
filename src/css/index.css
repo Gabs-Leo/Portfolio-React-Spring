@@ -7,12 +7,13 @@
 /*#ffaaed*/
 /*#cb7aba*/
 :root{
-
+    --whiteBg: #f4f2ff;
     --bgColor: #121214;
     --bgContrast: #202024;
     --text: #d5d5db;
 
+
     --lightColor: 255, 221, 255;
     --baseColor: 255, 170, 237;
-    --darkColor: 252, 167, 234;
+    --darkColor: 203, 122, 186;
 }

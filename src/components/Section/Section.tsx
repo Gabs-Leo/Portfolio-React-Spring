@@ -1,18 +1,15 @@
-import { Projeto } from "../Projeto/Projeto"
+import React from "react"
 import "./section.css"
 
-export const Section = () => {
+interface SectionProperties{
+    tema:string
+    conteudo?:React.ReactNode
+}
+
+export const Section = (properties:SectionProperties) => {
     return (
-        <section>
-            <div className="container">
-                <h2>Projetos</h2>
-                <div className="gallery">
-                    <Projeto titulo="Dashboard de Vendas" descricao="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia blanditiis nulla, dolore autem fugit eos nobis repellat nisi ex tempora, laboriosam qui. Ex earum neque possimus fugit natus temporibus a."/>
-                    <Projeto titulo="Dashboard de Vendas" descricao="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia blanditiis nulla, dolore autem fugit eos nobis repellat nisi ex tempora, laboriosam qui. Ex earum neque possimus fugit natus temporibus a."/>
-                    <Projeto titulo="Dashboard de Vendas" descricao="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia blanditiis nulla, dolore autem fugit eos nobis repellat nisi ex tempora, laboriosam qui. Ex earum neque possimus fugit natus temporibus a."/>
-                    <Projeto titulo="Dashboard de Vendas" descricao="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia blanditiis nulla, dolore autem fugit eos nobis repellat nisi ex tempora, laboriosam qui. Ex earum neque possimus fugit natus temporibus a."/>
-                </div>
-            </div>
+        <section className={properties.tema}>
+            <div>{properties.conteudo}</div>
         </section>
     )
 }
