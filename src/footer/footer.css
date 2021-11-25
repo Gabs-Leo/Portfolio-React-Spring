@@ -1,0 +1,19 @@
+footer{
+    margin: 0;
+    padding: 0;
+    background-color: var(--bgColor);
+
+    text-align: center;
+}
+footer .container{
+    width: 50%;
+
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+footer h2{
+    color: rgb(var(--baseColor))
+}
+footer p {
+    font-size: 10px;
+}

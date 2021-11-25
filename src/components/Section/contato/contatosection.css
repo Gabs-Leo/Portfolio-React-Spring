@@ -1,0 +1,40 @@
+input[type="text"], input[type="email"], textarea{
+    background-color: rgba(0, 0, 0, 0) !important;
+
+    padding: 10px 0;
+    box-sizing: border-box;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #999;
+    width: 100%;
+}
+.form-group{
+    width: 100%;
+}
+.row, .col{
+    width: 100%;
+}
+.col{
+    position: relative;
+    width: 100% !important;
+}
+label{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    transition: .3s;
+
+    font-size: 20px;
+}
+
+input:focus ~ label, .preenchido{
+    top: -15px !important;
+    font-size: 10px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

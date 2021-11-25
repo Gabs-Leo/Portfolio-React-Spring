@@ -1,12 +1,12 @@
-a{
-    border-radius: 5px;
-    padding: 10px;
+a, input[type="submit"]{
+    border-radius: 5px !important;
+    padding: 10px !important;
 
-    border: 2px solid rgb(var(--baseColor));
-    display: inline-block;
-    transition: 0.5s;
+    border: 2px solid rgb(var(--baseColor)) !important;
+    display: inline-block !important;
+    transition: 0.5s !important;
     text-decoration: none !important;
-    font-weight: bold;
+    font-weight: bold !important;
 }
 .empty{
     color: rgb(var(--baseColor)) !important;
@@ -21,14 +21,14 @@ a{
     background-color: rgb(var(--baseColor));
 }
 .fill:hover{
-    background-color: rgba(255, 255, 255, .7);
-    color: var(--baseColor) !important;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(var(--baseColor)) !important;
 }
 
-.round{
-    border-radius: 25px;
+.round, input[type="submit"]{
+    border-radius: 25px !important;
 }
 
 .long{
-    width: 200px;
+    width: 200px !important;
 }
